@@ -1,5 +1,5 @@
 @media screen and (max-width: 768px) {
-    .container{
+    .container {
         width: 100%;
     }
 }
@@ -9,17 +9,21 @@
         padding-bottom: 3rem;
         margin-bottom: 0;
     }
-    
-    .container{
+
+    .container {
         width: 100%;
     }
 
-    .row{
+    .row {
         flex-direction: column;
     }
 
-    .lessons{
+    .lessons {
         background-color: #232946;
+    }
+
+    .col {
+        margin-bottom: 1.5rem;
     }
 
     .lessons .col,
@@ -32,23 +36,31 @@
         width: 100%;
     }
 
-    .why-us{
+    .why-us {
         background-color: #222222;
         padding: 3rem;
     }
 
-    body{
+    body {
         background-color: #222222;
-        
+
     }
 
-    .steps{
+    .steps {
         margin: 0;
     }
 
-    .site-header{
+    .site-header {
         margin-top: 0;
         padding-top: 3rem;
         background-color: #232946;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width:1160px) {
+
+    .container {
+        width: 100%;
+    }
+
 }
